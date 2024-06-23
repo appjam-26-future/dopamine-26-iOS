@@ -7,18 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850176582C26E6030076070C /* CustomSignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176572C26E6030076070C /* CustomSignTextField.swift */; };
+		8501765B2C26E65D0076070C /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501765A2C26E65D0076070C /* Text.swift */; };
+		8501765D2C26E7E30076070C /* CustomSignSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501765C2C26E7E30076070C /* CustomSignSecureField.swift */; };
+		8501765F2C26E8A80076070C /* SignTitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501765E2C26E8A80076070C /* SignTitleText.swift */; };
+		850176612C26E9170076070C /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176602C26E9170076070C /* SigninView.swift */; };
+		850176632C26F0B30076070C /* DopamineMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176622C26F0B30076070C /* DopamineMeasurementView.swift */; };
+		850176652C26F2800076070C /* DopamineSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176642C26F2800076070C /* DopamineSurveyView.swift */; };
+		850176672C26F6D50076070C /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176662C26F6D50076070C /* SurveyView.swift */; };
+		850176692C2721D30076070C /* ConnectDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176682C2721D30076070C /* ConnectDataView.swift */; };
+		8501766C2C2729FA0076070C /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501766B2C2729FA0076070C /* ScreenTimeManager.swift */; };
+		8501766E2C272A5E0076070C /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501766D2C272A5E0076070C /* AuthorizationManager.swift */; };
+		850176702C272AE00076070C /* AppLockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501766F2C272AE00076070C /* AppLockManager.swift */; };
+		850176722C272FC40076070C /* DopamineStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176712C272FC40076070C /* DopamineStatusView.swift */; };
+		850176742C2733030076070C /* DeviceActivityName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176732C2733030076070C /* DeviceActivityName.swift */; };
+		850176772C2738650076070C /* ATTrakingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176762C2738650076070C /* ATTrakingManager.swift */; };
+		8501767C2C2750030076070C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501767B2C2750030076070C /* MainView.swift */; };
+		8501767F2C2750680076070C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501767E2C2750680076070C /* MainTabView.swift */; };
+		850176812C2758F00076070C /* MeetFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176802C2758F00076070C /* MeetFriendView.swift */; };
+		850176832C27595C0076070C /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176822C27595C0076070C /* ImagePickerView.swift */; };
+		850176852C275D250076070C /* MeetFirendCompleatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176842C275D250076070C /* MeetFirendCompleatView.swift */; };
+		850176872C2766C50076070C /* MeditationCompleatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176862C2766C40076070C /* MeditationCompleatView.swift */; };
+		850176892C27672E0076070C /* WorkCompleatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176882C27672E0076070C /* WorkCompleatView.swift */; };
+		8501768B2C2767DC0076070C /* WorkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501768A2C2767DC0076070C /* WorkingView.swift */; };
+		8501768F2C2769390076070C /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501768E2C2769390076070C /* StartingView.swift */; };
+		850176912C276B700076070C /* MaditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176902C276B700076070C /* MaditationView.swift */; };
+		850176932C276B790076070C /* StartMaditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176922C276B790076070C /* StartMaditationView.swift */; };
+		850176952C2777750076070C /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850176942C2777750076070C /* CalenderView.swift */; };
+		850176982C27798D0076070C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 850176972C27798D0076070C /* Alamofire */; };
+		8501769C2C27812E0076070C /* rotinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501769B2C27812E0076070C /* rotinView.swift */; };
 		85688C422C26B84900CF89EF /* dopamineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85688C412C26B84900CF89EF /* dopamineApp.swift */; };
-		85688C442C26B84900CF89EF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85688C432C26B84900CF89EF /* SplashView.swift */; };
+		85688C442C26B84900CF89EF /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85688C432C26B84900CF89EF /* FirstView.swift */; };
 		85688C462C26B84B00CF89EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85688C452C26B84B00CF89EF /* Assets.xcassets */; };
 		85688C492C26B84B00CF89EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85688C482C26B84B00CF89EF /* Preview Assets.xcassets */; };
+		85A15C8B2C26DF23004F6903 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A15C842C26DF23004F6903 /* Pretendard-Bold.otf */; };
+		85A15C8C2C26DF23004F6903 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A15C852C26DF23004F6903 /* Pretendard-Light.otf */; };
+		85A15C8D2C26DF23004F6903 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A15C862C26DF23004F6903 /* Pretendard-Medium.otf */; };
+		85A15C8E2C26DF23004F6903 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A15C872C26DF23004F6903 /* Pretendard-Regular.otf */; };
+		85A15C8F2C26DF23004F6903 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A15C882C26DF23004F6903 /* Pretendard-SemiBold.otf */; };
+		85A15C902C26DF23004F6903 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A15C892C26DF23004F6903 /* Pretendard-Thin.otf */; };
+		85A15C922C26DF2D004F6903 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A15C912C26DF2D004F6903 /* Fonts.swift */; };
+		85A15C962C26E427004F6903 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A15C952C26E427004F6903 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850176572C26E6030076070C /* CustomSignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSignTextField.swift; sourceTree = "<group>"; };
+		8501765A2C26E65D0076070C /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		8501765C2C26E7E30076070C /* CustomSignSecureField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignSecureField.swift; sourceTree = "<group>"; };
+		8501765E2C26E8A80076070C /* SignTitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTitleText.swift; sourceTree = "<group>"; };
+		850176602C26E9170076070C /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		850176622C26F0B30076070C /* DopamineMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopamineMeasurementView.swift; sourceTree = "<group>"; };
+		850176642C26F2800076070C /* DopamineSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopamineSurveyView.swift; sourceTree = "<group>"; };
+		850176662C26F6D50076070C /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		850176682C2721D30076070C /* ConnectDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectDataView.swift; sourceTree = "<group>"; };
+		8501766B2C2729FA0076070C /* ScreenTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+		8501766D2C272A5E0076070C /* AuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
+		8501766F2C272AE00076070C /* AppLockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockManager.swift; sourceTree = "<group>"; };
+		850176712C272FC40076070C /* DopamineStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopamineStatusView.swift; sourceTree = "<group>"; };
+		850176732C2733030076070C /* DeviceActivityName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityName.swift; sourceTree = "<group>"; };
+		850176762C2738650076070C /* ATTrakingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrakingManager.swift; sourceTree = "<group>"; };
+		8501767B2C2750030076070C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8501767E2C2750680076070C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		850176802C2758F00076070C /* MeetFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetFriendView.swift; sourceTree = "<group>"; };
+		850176822C27595C0076070C /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		850176842C275D250076070C /* MeetFirendCompleatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetFirendCompleatView.swift; sourceTree = "<group>"; };
+		850176862C2766C40076070C /* MeditationCompleatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCompleatView.swift; sourceTree = "<group>"; };
+		850176882C27672E0076070C /* WorkCompleatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCompleatView.swift; sourceTree = "<group>"; };
+		8501768A2C2767DC0076070C /* WorkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingView.swift; sourceTree = "<group>"; };
+		8501768E2C2769390076070C /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		850176902C276B700076070C /* MaditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaditationView.swift; sourceTree = "<group>"; };
+		850176922C276B790076070C /* StartMaditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMaditationView.swift; sourceTree = "<group>"; };
+		850176942C2777750076070C /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		8501769B2C27812E0076070C /* rotinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotinView.swift; sourceTree = "<group>"; };
 		85688C3E2C26B84900CF89EF /* dopamine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dopamine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85688C412C26B84900CF89EF /* dopamineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dopamineApp.swift; sourceTree = "<group>"; };
-		85688C432C26B84900CF89EF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		85688C432C26B84900CF89EF /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		85688C452C26B84B00CF89EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85688C482C26B84B00CF89EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85A15C842C26DF23004F6903 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		85A15C852C26DF23004F6903 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		85A15C862C26DF23004F6903 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		85A15C872C26DF23004F6903 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		85A15C882C26DF23004F6903 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		85A15C892C26DF23004F6903 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		85A15C912C26DF2D004F6903 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		85A15C932C26E23B004F6903 /* dopamine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dopamine.entitlements; sourceTree = "<group>"; };
+		85A15C942C26E249004F6903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		85A15C952C26E427004F6903 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +101,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850176982C27798D0076070C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850176592C26E6530076070C /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				8501765A2C26E65D0076070C /* Text.swift */,
+				850176732C2733030076070C /* DeviceActivityName.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		8501766A2C2729F00076070C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8501766B2C2729FA0076070C /* ScreenTimeManager.swift */,
+				8501766D2C272A5E0076070C /* AuthorizationManager.swift */,
+				8501766F2C272AE00076070C /* AppLockManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		850176752C2738500076070C /* sub */ = {
+			isa = PBXGroup;
+			children = (
+				850176762C2738650076070C /* ATTrakingManager.swift */,
+			);
+			path = sub;
+			sourceTree = "<group>";
+		};
+		850176782C274FEC0076070C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8501767E2C2750680076070C /* MainTabView.swift */,
+				8501767B2C2750030076070C /* MainView.swift */,
+				850176802C2758F00076070C /* MeetFriendView.swift */,
+				850176822C27595C0076070C /* ImagePickerView.swift */,
+				850176842C275D250076070C /* MeetFirendCompleatView.swift */,
+				850176902C276B700076070C /* MaditationView.swift */,
+				850176922C276B790076070C /* StartMaditationView.swift */,
+				850176862C2766C40076070C /* MeditationCompleatView.swift */,
+				8501768A2C2767DC0076070C /* WorkingView.swift */,
+				8501768E2C2769390076070C /* StartingView.swift */,
+				850176882C27672E0076070C /* WorkCompleatView.swift */,
+				850176942C2777750076070C /* CalenderView.swift */,
+				8501769B2C27812E0076070C /* rotinView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		85688C352C26B84900CF89EF = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +174,15 @@
 		85688C402C26B84900CF89EF /* dopamine */ = {
 			isa = PBXGroup;
 			children = (
+				8501766A2C2729F00076070C /* Manager */,
+				850176592C26E6530076070C /* Extenstion */,
+				85A15C9B2C26E4C3004F6903 /* Component */,
+				85A15C972C26E432004F6903 /* View */,
+				85A15C942C26E249004F6903 /* Info.plist */,
+				85A15C932C26E23B004F6903 /* dopamine.entitlements */,
 				85688C412C26B84900CF89EF /* dopamineApp.swift */,
-				85688C432C26B84900CF89EF /* SplashView.swift */,
 				85688C452C26B84B00CF89EF /* Assets.xcassets */,
+				85A15C8A2C26DF23004F6903 /* Font */,
 				85688C472C26B84B00CF89EF /* Preview Content */,
 			);
 			path = dopamine;
@@ -65,6 +194,55 @@
 				85688C482C26B84B00CF89EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85A15C8A2C26DF23004F6903 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				85A15C912C26DF2D004F6903 /* Fonts.swift */,
+				85A15C842C26DF23004F6903 /* Pretendard-Bold.otf */,
+				85A15C852C26DF23004F6903 /* Pretendard-Light.otf */,
+				85A15C862C26DF23004F6903 /* Pretendard-Medium.otf */,
+				85A15C872C26DF23004F6903 /* Pretendard-Regular.otf */,
+				85A15C882C26DF23004F6903 /* Pretendard-SemiBold.otf */,
+				85A15C892C26DF23004F6903 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		85A15C972C26E432004F6903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85A15C982C26E43D004F6903 /* InputUserInfo */,
+				850176782C274FEC0076070C /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85A15C982C26E43D004F6903 /* InputUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				850176752C2738500076070C /* sub */,
+				85688C432C26B84900CF89EF /* FirstView.swift */,
+				85A15C952C26E427004F6903 /* SignupView.swift */,
+				850176602C26E9170076070C /* SigninView.swift */,
+				850176622C26F0B30076070C /* DopamineMeasurementView.swift */,
+				850176642C26F2800076070C /* DopamineSurveyView.swift */,
+				850176712C272FC40076070C /* DopamineStatusView.swift */,
+				850176682C2721D30076070C /* ConnectDataView.swift */,
+			);
+			path = InputUserInfo;
+			sourceTree = "<group>";
+		};
+		85A15C9B2C26E4C3004F6903 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8501765C2C26E7E30076070C /* CustomSignSecureField.swift */,
+				850176572C26E6030076070C /* CustomSignTextField.swift */,
+				8501765E2C26E8A80076070C /* SignTitleText.swift */,
+				850176662C26F6D50076070C /* SurveyView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +261,9 @@
 			dependencies = (
 			);
 			name = dopamine;
+			packageProductDependencies = (
+				850176972C27798D0076070C /* Alamofire */,
+			);
 			productName = dopamine;
 			productReference = 85688C3E2C26B84900CF89EF /* dopamine.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +292,9 @@
 				Base,
 			);
 			mainGroup = 85688C352C26B84900CF89EF;
+			packageReferences = (
+				850176962C27798D0076070C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 85688C3F2C26B84900CF89EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +310,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				85688C492C26B84B00CF89EF /* Preview Assets.xcassets in Resources */,
+				85A15C8E2C26DF23004F6903 /* Pretendard-Regular.otf in Resources */,
+				85A15C8F2C26DF23004F6903 /* Pretendard-SemiBold.otf in Resources */,
+				85A15C902C26DF23004F6903 /* Pretendard-Thin.otf in Resources */,
+				85A15C8D2C26DF23004F6903 /* Pretendard-Medium.otf in Resources */,
+				85A15C8C2C26DF23004F6903 /* Pretendard-Light.otf in Resources */,
+				85A15C8B2C26DF23004F6903 /* Pretendard-Bold.otf in Resources */,
 				85688C462C26B84B00CF89EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +327,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85688C442C26B84900CF89EF /* SplashView.swift in Sources */,
+				85A15C962C26E427004F6903 /* SignupView.swift in Sources */,
+				850176832C27595C0076070C /* ImagePickerView.swift in Sources */,
+				850176852C275D250076070C /* MeetFirendCompleatView.swift in Sources */,
+				85688C442C26B84900CF89EF /* FirstView.swift in Sources */,
+				8501766E2C272A5E0076070C /* AuthorizationManager.swift in Sources */,
+				850176612C26E9170076070C /* SigninView.swift in Sources */,
+				850176892C27672E0076070C /* WorkCompleatView.swift in Sources */,
+				850176702C272AE00076070C /* AppLockManager.swift in Sources */,
+				850176652C26F2800076070C /* DopamineSurveyView.swift in Sources */,
+				850176952C2777750076070C /* CalenderView.swift in Sources */,
+				850176692C2721D30076070C /* ConnectDataView.swift in Sources */,
+				850176722C272FC40076070C /* DopamineStatusView.swift in Sources */,
+				850176932C276B790076070C /* StartMaditationView.swift in Sources */,
+				850176632C26F0B30076070C /* DopamineMeasurementView.swift in Sources */,
+				85A15C922C26DF2D004F6903 /* Fonts.swift in Sources */,
+				850176772C2738650076070C /* ATTrakingManager.swift in Sources */,
+				8501767F2C2750680076070C /* MainTabView.swift in Sources */,
+				8501769C2C27812E0076070C /* rotinView.swift in Sources */,
+				850176582C26E6030076070C /* CustomSignTextField.swift in Sources */,
+				8501765B2C26E65D0076070C /* Text.swift in Sources */,
+				8501767C2C2750030076070C /* MainView.swift in Sources */,
+				850176672C26F6D50076070C /* SurveyView.swift in Sources */,
 				85688C422C26B84900CF89EF /* dopamineApp.swift in Sources */,
+				850176872C2766C50076070C /* MeditationCompleatView.swift in Sources */,
+				8501765F2C26E8A80076070C /* SignTitleText.swift in Sources */,
+				850176912C276B700076070C /* MaditationView.swift in Sources */,
+				850176742C2733030076070C /* DeviceActivityName.swift in Sources */,
+				8501768B2C2767DC0076070C /* WorkingView.swift in Sources */,
+				8501768F2C2769390076070C /* StartingView.swift in Sources */,
+				8501766C2C2729FA0076070C /* ScreenTimeManager.swift in Sources */,
+				8501765D2C26E7E30076070C /* CustomSignSecureField.swift in Sources */,
+				850176812C2758F00076070C /* MeetFriendView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +489,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dopamine/dopamine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"dopamine/Preview Content\"";
-				DEVELOPMENT_TEAM = W7X5HRD463;
+				DEVELOPMENT_TEAM = 782M695PY5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dopamine/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "특정 앱의 잠금을 해제하기 위해 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +508,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appjam.dopamine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appjam.dopamin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,12 +521,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dopamine/dopamine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"dopamine/Preview Content\"";
-				DEVELOPMENT_TEAM = W7X5HRD463;
+				DEVELOPMENT_TEAM = 782M695PY5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dopamine/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "특정 앱의 잠금을 해제하기 위해 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +540,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appjam.dopamine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appjam.dopamin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +570,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		850176962C27798D0076070C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		850176972C27798D0076070C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 850176962C27798D0076070C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85688C362C26B84900CF89EF /* Project object */;
 }

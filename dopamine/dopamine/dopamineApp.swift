@@ -11,7 +11,8 @@ import SwiftUI
 struct dopamineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView()
         }
     }
+    
 }

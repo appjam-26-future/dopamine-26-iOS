@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>걸음 수를 기록하기 위해 권한 허용이 필요합니다.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>걸음 수를 공유하기 위해 권한 허용이 필요합니다.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>특정 앱의 잠금을 해제하기 위해 필요합니다.</string>
+	<key>NSDeviceUsageDescription</key>
+	<string>스크린 타임 데이터를 접근하기 위해 필요합니다.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Pretendard-Bold</string>
+		<string>Pretendard-Light</string>
+		<string>Pretendard-Medium</string>
+		<string>Pretendard-Regular</string>
+		<string>Pretendard-SemiBold</string>
+		<string>Pretendard-Thin</string>
+	</array>
+</dict>
+</plist>
